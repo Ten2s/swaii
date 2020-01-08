@@ -27,8 +27,10 @@ if i != location{
 print()
 
 
+//해답
 
-
+var doubleArray2 = doubleArray.filter({(number1: Double) -> Bool in return (number1 >= 2.2 && number1 < 6.0)})
+print(doubleArray2)
 
 
 
